@@ -1,0 +1,50 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero-section {
+    background-color: #e82c2a; /* Red background */
+    color: #ffffff; /* White text */
+    padding: 60px 20px; /* Increased padding for more space */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Ensures a good height for the hero section */
+    border-bottom: 4px solid #ffffff; /* White bottom border for a clean look */
+  }
+  
+  .hero-section h1 {
+    margin: 0;
+    font-size: 2.8em; /* Slightly larger for better emphasis */
+    line-height: 1.2; /* Line height for better readability */
+  }
+  
+  .hero-section p {
+    font-size: 1.2em; /* Adjusted for better readability */
+    margin-top: 10px;
+    max-width: 800px; /* Limits width for better readability */
+  }
+  
+  .content-section {
+    display: flex;
+    gap: 10px; /* Remove the gap between calendar and form */
+    padding: 20px;
+  }
+  
+  .calendar,
+  .appointment-form {
+    flex: 1;
+    min-width: 0; /* Allows components to shrink if needed */
+    box-sizing: border-box;
+  }
+  
+  .react-calendar {
+    border: 1px solid #ffffff; /* White border for the calendar */
+    border-radius: 8px; /* Rounded corners for a softer look */
+  }
+  

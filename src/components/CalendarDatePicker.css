@@ -1,0 +1,56 @@
+ /* CalendarDatePicker.css */
+
+.custom-calendar {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-calendar .react-calendar__tile {
+    border-radius: 8px;
+    transition: background-color 0.2s, color 0.2s;
+    }
+  
+  .custom-calendar .react-calendar__tile:enabled:hover,
+  .custom-calendar .react-calendar__tile:enabled:focus {
+    background-color: #e82c2a; /* Red background on hover/focus */
+    color: #ffffff; /* White text on hover/focus */
+  }
+  
+  .custom-calendar .react-calendar__tile--active {
+    background-color: #e82c2a; /* Red background for the active date */
+    color: #000000; /* White text for the active date */
+  }
+  
+  .custom-calendar .react-calendar__navigation button {
+     color: #000000; /* Black text color for navigation buttons */
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .custom-calendar .react-calendar__navigation button,
+  .custom-calendar .react-calendar__navigation button{
+     color: #000000; 
+  }
+  .custom-calendar .react-calendar__navigation button:hover,
+  .custom-calendar .react-calendar__navigation button:focus {
+    background-color: #e82c2a; /* Red background on hover/focus */
+    color: #000000; /* Black text color on hover/focus */
+  }
+  
+  .custom-calendar .react-calendar__month-view__weekdays {
+    background-color: #e82c2a; /* Red background for the weekdays header */
+    color: #ffffff; /* White text for weekdays header */
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .custom-calendar .react-calendar__navigation {
+    margin-bottom: 1rem;
+  }
+  
+  .custom-calendar .react-calendar__month-view__days__day--weekend {
+    color: #e82c2a; /* Red color for weekends */
+  }
+  

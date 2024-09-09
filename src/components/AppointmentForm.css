@@ -1,0 +1,66 @@
+/* src/pages/AppointmentForm.css */
+
+.forms {
+     padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #555555;
+  }
+  
+  .userinput[type="text"],
+  .userinput[type="number"],
+  select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .userinput[type="text"]:focus,
+  .userinput[type="number"]:focus,
+  select:focus {
+    border-color: #e82c2a; /* Red color on focus */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(232, 44, 42, 0.2); /* Subtle red outline */
+  }
+  
+  button {
+    padding: 0.75rem 1rem;
+    background-color: #e82c2a; /* Red background */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #d71a1a; /* Darker red on hover */
+    transform: scale(1.02); /* Slightly enlarge button on hover */
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+    color: #777777;
+    text-align: center;
+  }
+  
